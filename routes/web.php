@@ -20,3 +20,6 @@ Route::get('/', function () {
 
 
 Route::get('/producto', 'Prueba@getConstumers');
+
+Route::resource('/login', 'Prueba');
+
